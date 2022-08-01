@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="gameBoard">
+      
+        <div class="GameRow">
+            <div class="mtxt">
+                <span>MASTER MIND </span>
+                <button id="newGame" class="green">Restart</button>
+            </div>
+            <div class="ShowRules">
+                Show Rules.
+            </div>
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs secret socket">
+
+                </div>
+                <div class="pegs secret socket">
+
+                </div>
+    
+                <div class="pegs secret socket">
+    
+                </div>
+    
+                <div class="pegs secret socket">
+
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+
+            <div class="pegCol" id="option" >
+                <button class="pegsc  option yellow" value="1" id="yellow"></button>  
+                <button class="pegsc option red" value="2" id="red"></button>
+                <button class="pegsc option green" value="3" id="green"></button>
+                <button class="pegsc option blue" value="4" id="blue"></button>
+                <button class="pegsc option black" value="5" id="black"></button>
+                <button class="pegsc option purple" value="6" id="purple"></button>
+                <button id="delete" class="">&#8672;</button>
+                
+    
+
+            </div>
+
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs  socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket" >
+    
+                </div>
+    
+                <div class="pegs socket" >
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="GameRow">
+            <div class="guess" style="display: inline;"> 
+                <div class="pegs socket">
+
+                </div>
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+    
+                <div class="pegs socket">
+    
+                </div>
+            </div>
+           
+            <div class="checkBox hint">
+
+            </div>
+            <div class="smallPegs">
+                <div class="sp1 smallpegs">
+
+                </div>
+                <div class="sp2 smallpegs">
+
+                </div>
+                <div class="sp3 smallpegs">
+
+                </div>
+                <div class="sp4 smallpegs">
+
+                </div>
+
+            </div>
+
+        </div>
+
+  <div id="modalOverlay">
+    <div id="modalMessage">
+      <button class="large">OK</button>
+      <button class="large primary">Restart</button>
+    </div>
+  </div>
+     <script src="./script.js"></script>
+     <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', 'UA-58209103-1', 'auto');
+        ga('send', 'pageview');
+    
+      </script>
+    
+    </div>
+    
+</body>
+</html>

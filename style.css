@@ -1,0 +1,102 @@
+.gameBoard{
+    
+    width: 400px;
+    margin: auto;
+    padding: 5px 2px;
+    background: #D0C3B0;
+    border: 1px solid #4C3434;
+    padding-left: 30px;
+}
+.GameRow{
+    margin-top: 20px;
+}
+.mtxt{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ShowRules{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pegs{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.checkBox{
+    background-color: green;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+.smallPegs{
+    position: absolute;
+    display: inline;
+}
+.smallpegs{
+    height: 7px;
+    width: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+.sp1{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 36px;
+}
+.sp2{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 12px;
+}
+.sp3{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 12px;
+}
+
+.sp4{
+    position: absolute;
+    margin-left: 35px;
+}
+
+.pegCol{
+    position: absolute;
+   margin-top: -7px;
+   display: inline;
+   margin-left: 100px;
+    
+}
+.pegCol button{
+    display:block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    margin-top: 7px;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: rgb(60, 255, 0);
+}
+.red{
+    background-color: rgb(255, 0, 0);
+}
+.blue{
+    background-color: rgb(0, 255, 242);
+}
+.black{
+    background-color: rgb(2, 2, 2);
+}
+.purple{
+    background-color: rgb(92, 22, 133);
+}
