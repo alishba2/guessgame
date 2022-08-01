@@ -564,11 +564,6 @@ clear: both;
 *zoom: 1;
 }
 
-/* ==========================================================================
- EXAMPLE Media Queries for Responsive Design.
- These examples override the primary ('mobile first') styles.
- Modify as content requires.
- ========================================================================== */
 
  @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
@@ -581,10 +576,6 @@ clear: both;
   /* Style adjustments for high resolution devices */
 }
 
-/* ==========================================================================
- Print styles.
- Inlined to avoid required HTTP connection: h5bp.com/r
- ========================================================================== */
 
  @media print {
   * {
