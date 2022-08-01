@@ -109,9 +109,11 @@ body {
 body{
   position: relative;
   font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  background-color: #ECE5CE;
+  color: rgb(47, 75, 130);
+  margin-top: 50px;
+  /* background-color: #ECE5CE; */
   transition: background-color .5s ease;
+ 
 }
 
 body.won { background-color: #8FBE00; }
@@ -129,6 +131,7 @@ h1 {
   display: block;
   width: 810px;
   margin: 0 auto;
+  border: 2px solid rgb(45, 108, 176);
 }
 
 header {
@@ -158,12 +161,12 @@ hr {
 .socket {
   display: inline-block;
   border-radius: 50%;
-  background-color: #C7BF8D;
+  background-color: #2898b7;
 }
 
 #guesses {
   display: inline-block;
-  background-color: #E3DCB5;
+  background-color: rgb(190, 203, 207);
   border-radius: 3px 0 0 3px;
   padding: 15px 30px;
   font-size: 0;
@@ -183,7 +186,7 @@ hr {
 .guess .socket + .socket { margin-left: 10px; }
 
 .code {
-  border-bottom: 2px solid #c7bf8d;
+  border-bottom: 2px solid #8d99c7;
   padding-bottom: 15px;
 }
 
@@ -209,9 +212,10 @@ hr {
   vertical-align: bottom;
   display: inline-block;
   padding: 15px 20px;
-  background-color: #E3DCB5;
+  background-color: rgb(190, 203, 207);
   border-radius: 0 3px 3px 0;
   font-size: 0;
+  padding-top: 30px;
 }
 
 .hint {
@@ -427,17 +431,7 @@ button.primary {
 .white { background: #fff; }
 
 
-footer {
-  text-align: center;
-}
 
-footer small {
-  font-size: .7em;
-}
-
-footer a {
-  color: inherit;
-}
 
 @media (max-width: 768px) {
   .wrapper,
@@ -657,4 +651,11 @@ clear: both;
   h3 {
     page-break-after: avoid;
   }
+}
+
+.almost{
+  background-color: white;
+}
+.hit{
+  background-color: black;
 }
